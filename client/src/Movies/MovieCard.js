@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MovieCard = ({ title, director, metascore, stars }) => (
+const MovieCard = ({ title, director, metascore, stars, saveMovie }) => (
   <>
     <div className="movie-card">
       <h2>{title}</h2>
@@ -18,7 +18,6 @@ const MovieCard = ({ title, director, metascore, stars }) => (
         </div>
       ))}
     </div>
-    <div className="save-button">Save</div>
   </>
 );
 
